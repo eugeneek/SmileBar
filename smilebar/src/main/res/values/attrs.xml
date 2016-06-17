@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="SmileBar">
+        <attr name="smileWidth" format="dimension"/>
+        <attr name="smileHeight" format="dimension"/>
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="enabled" format="boolean"/>
+        <attr name="rating" format="integer"/>
+        <attr name="smileDefault" format="reference"/>
+        <attr name="smileRate1" format="reference"/>
+        <attr name="smileRate2" format="reference"/>
+        <attr name="smileRate3" format="reference"/>
+        <attr name="smileRate4" format="reference"/>
+        <attr name="smileRate5" format="reference"/>
+    </declare-styleable>
+</resources>

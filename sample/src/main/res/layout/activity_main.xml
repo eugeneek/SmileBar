@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eugeneek.smilebar_sample.MainActivity">
+
+    <com.eugeneek.smilebar.SmileBar
+        android:id="@+id/starBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="50dp"
+        app:smileHeight="50dp"
+        app:smileDefault="@drawable/none"
+        app:smileRate1="@drawable/one"
+        app:smileRate2="@drawable/two"
+        app:smileRate3="@drawable/three"
+        app:smileRate4="@drawable/four"
+        app:smileRate5="@drawable/five"
+        app:horizontalSpacing="8dp"
+        app:rating="1"
+        android:layout_marginTop="15dp" />
+
+    <com.eugeneek.smilebar.SmileBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="50dp"
+        app:smileHeight="50dp"
+        app:smileDefault="@drawable/none"
+        app:smileRate1="@drawable/one"
+        app:smileRate2="@drawable/two"
+        app:smileRate3="@drawable/three"
+        app:smileRate4="@drawable/four"
+        app:smileRate5="@drawable/five"
+        app:horizontalSpacing="8dp"
+        app:rating="2"
+        android:layout_marginTop="5dp" />
+
+    <com.eugeneek.smilebar.SmileBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="50dp"
+        app:smileHeight="50dp"
+        app:smileDefault="@drawable/none"
+        app:smileRate1="@drawable/one"
+        app:smileRate2="@drawable/two"
+        app:smileRate3="@drawable/three"
+        app:smileRate4="@drawable/four"
+        app:smileRate5="@drawable/five"
+        app:horizontalSpacing="8dp"
+        app:rating="3"
+        android:layout_marginTop="5dp" />
+
+    <com.eugeneek.smilebar.SmileBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="50dp"
+        app:smileHeight="50dp"
+        app:smileDefault="@drawable/none"
+        app:smileRate1="@drawable/one"
+        app:smileRate2="@drawable/two"
+        app:smileRate3="@drawable/three"
+        app:smileRate4="@drawable/four"
+        app:smileRate5="@drawable/five"
+        app:horizontalSpacing="8dp"
+        app:rating="4"
+        android:layout_marginTop="5dp" />
+
+    <com.eugeneek.smilebar.SmileBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="50dp"
+        app:smileHeight="50dp"
+        app:smileDefault="@drawable/none"
+        app:smileRate1="@drawable/one"
+        app:smileRate2="@drawable/two"
+        app:smileRate3="@drawable/three"
+        app:smileRate4="@drawable/four"
+        app:smileRate5="@drawable/five"
+        app:horizontalSpacing="8dp"
+        app:rating="5"
+        app:enabled="true"
+        android:layout_marginTop="5dp" />
+
+    <com.eugeneek.smilebar.SmileBar
+        android:id="@+id/starBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:smileWidth="30dp"
+        app:smileHeight="30dp"
+        app:horizontalSpacing="2dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_marginTop="25dp" />
+</LinearLayout>
