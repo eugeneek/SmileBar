@@ -82,7 +82,7 @@
         app:smileRate5="@drawable/five"
         app:horizontalSpacing="8dp"
         app:rating="5"
-        app:enabled="true"
+        app:enabled="false"
         android:layout_marginTop="5dp" />
 
     <com.eugeneek.smilebar.SmileBar
