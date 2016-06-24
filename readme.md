@@ -1,12 +1,13 @@
 # SmileBar
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SmileBar-green.svg?style=true)](https://android-arsenal.com/details/1/3771)
 
-Simple android library, that provide rating view with different drawables for each rating value
+Simple android library, that provide rating view with different drawables for each rating value. This library based on [badoo's](https://github.com/badoo)  [StarBar](https://github.com/badoo/StarBar) view
 
 ![screenshot](img/screenshot.png)
 
 ## Usage
 #### In your layout.xml
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -31,13 +32,13 @@ Simple android library, that provide rating view with different drawables for ea
         
         ...
     </LinearLayout>
-
+```
 #### In your Activity
-
+```java
     SmileBar smileBar = (SmileBar) findViewById(R.id.starBar);
-    
+```
 #### Rating change listener
-
+```java
     smileBar.setOnRatingSliderChangeListener(new SmileBar.OnRatingSliderChangeListener() {
                 @Override
                 public void onPendingRating(int rating) {
@@ -56,21 +57,22 @@ Simple android library, that provide rating view with different drawables for ea
                     Log.i("onCancelRating", "cancel");
                 }
             });
-    
+```   
 #### Getter and setter
-
+```java
     smileBar.setRating(1);
     smileBar.getRating();
-    
+```    
 #### Show as indicator
-
+```xml
     app:enabled="false"
+```
 or
-
+```java
     smileBar.setEnabled(false);
-    
+```
 ## Download
-
+```groovy
     repositories {
         maven { url "https://jitpack.io" }
     }
@@ -79,7 +81,7 @@ or
         //...
         compile 'com.github.eugeneek:smilebar:v1.0.0'
     }
-
+```
 ## License
 
 http://www.apache.org/licenses/LICENSE-2.0
